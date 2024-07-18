@@ -11,7 +11,6 @@ function Hero() {
                 <div className="size-4">
                   <img src="/img/mlogo.png" alt="MINYFY Logo" className="h-10 w-10" />
                 </div>
-                <h2 className="text-[#111418] text-lg font-bold leading-tight tracking-[-0.015em]">MINYFY</h2>
               </div>
               <div className="flex items-center gap-9">
                 <a className="text-[#111418] text-sm font-medium leading-normal" href="#">Home</a>
