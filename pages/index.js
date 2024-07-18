@@ -5,6 +5,9 @@ export default function Home() {
   return (
     <Layout>
       {/* Add your homepage content here */}
+      <div>
+        {/* Your homepage content goes here */}
+      </div>
     </Layout>
   );
 }
