@@ -1,7 +1,5 @@
-// components/Hero.js
 import React from 'react';
 import Link from 'next/link'; // Import Link from next/link
-import Navbar from './Navbar'; // Import the new Navbar component
 
 function Hero() {
   return (
@@ -53,7 +51,6 @@ function Hero() {
           </button>
         </div>
       </div>
-      <Navbar /> 
     </header>
   );
 }
