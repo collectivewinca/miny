@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layout'; // Adjust the path if needed
+import Layout from '../components/Layout'; 
 
 function HowItWorks() {
   return (
