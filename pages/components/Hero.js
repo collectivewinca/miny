@@ -1,11 +1,11 @@
 // components/Hero.js
 import React from 'react';
+import Link from 'next/link'; // Import Link from next/link
 import Navbar from './Navbar'; // Import the new Navbar component
 
 function Hero() {
   return (
-   
-     <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f5] px-10 py-3">
+    <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f5] px-10 py-3">
       <div className="flex items-center gap-4 text-[#111418]">
         <div className="size-4">
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,16 +27,16 @@ function Hero() {
           <Link href="/howitworks" passHref>
             <a className="text-[#111418] text-sm font-medium leading-normal">How It Works</a>
           </Link>
-          <Link href="#" passHref>
+          <Link href="/featured-playlists" passHref>
             <a className="text-[#111418] text-sm font-medium leading-normal">Featured Playlists</a>
           </Link>
-          <Link href="#" passHref>
+          <Link href="/marketplace" passHref>
             <a className="text-[#111418] text-sm font-medium leading-normal">Marketplace</a>
           </Link>
-          <Link href="#" passHref>
+          <Link href="/artists" passHref>
             <a className="text-[#111418] text-sm font-medium leading-normal">Artists</a>
           </Link>
-          <Link href="#" passHref>
+          <Link href="/fans" passHref>
             <a className="text-[#111418] text-sm font-medium leading-normal">Fans</a>
           </Link>
         </div>
@@ -55,15 +55,6 @@ function Hero() {
       </div>
       <Navbar /> 
     </header>
-           
-
-export default Hero;
-import React from 'react';
-import Link from 'next/link'; // Import Link from next/link
-
-function Hero() {
-  return (
-   
   );
 }
 
