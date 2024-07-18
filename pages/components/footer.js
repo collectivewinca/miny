@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 function Footer() {
   return (
@@ -9,9 +10,21 @@ function Footer() {
           <div>
             <h3 className="text-[#111418] text-base font-bold leading-tight">About MINY</h3>
             <ul className="space-y-2 mt-2">
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">Home</a></li>
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">How It Works</a></li>
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">FAQ</a></li>
+              <li>
+                <Link href="/" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">Home</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/howitworks" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">How It Works</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/faq" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">FAQ</a>
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -19,8 +32,16 @@ function Footer() {
           <div>
             <h3 className="text-[#111418] text-base font-bold leading-tight">Discover</h3>
             <ul className="space-y-2 mt-2">
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">Featured Playlists</a></li>
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">Marketplace</a></li>
+              <li>
+                <Link href="/featured-playlists" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">Featured Playlists</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/marketplace" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">Marketplace</a>
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -28,11 +49,31 @@ function Footer() {
           <div>
             <h3 className="text-[#111418] text-base font-bold leading-tight">Connect</h3>
             <ul className="space-y-2 mt-2">
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">Artists</a></li>
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">Fans</a></li>
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">Insights</a></li>
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">Podcast</a></li>
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">Community</a></li>
+              <li>
+                <Link href="/artists" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">Artists</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/fans" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">Fans</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/insights" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">Insights</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/podcast" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">Podcast</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/community" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">Community</a>
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -40,8 +81,16 @@ function Footer() {
           <div>
             <h3 className="text-[#111418] text-base font-bold leading-tight">Legal</h3>
             <ul className="space-y-2 mt-2">
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">Privacy Policy</a></li>
-              <li><a href="#" className="text-[#60758a] text-sm font-normal leading-normal">Terms & Conditions</a></li>
+              <li>
+                <Link href="/privacy-policy" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">Privacy Policy</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms-conditions" passHref>
+                  <a className="text-[#60758a] text-sm font-normal leading-normal">Terms & Conditions</a>
+                </Link>
+              </li>
             </ul>
           </div>
 
