@@ -23,4 +23,23 @@ function Hero() {
           <a className="text-[#111418] text-sm font-medium leading-normal" href="#">Featured Playlists</a>
           <a className="text-[#111418] text-sm font-medium leading-normal" href="#">Marketplace</a>
           <a className="text-[#111418] text-sm font-medium leading-normal" href="#">Artists</a>
-          <a className="text-[#111418] text-sm font-medium leading-normal
+          <a className="text-[#111418] text-sm font-medium leading-normal" href="#">Fans</a>
+        </div>
+        <div className="flex gap-2">
+          <button
+            className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#0b6fda] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+          >
+            <span className="truncate">Login</span>
+          </button>
+          <button
+            className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#f0f2f5] text-[#111418] text-sm font-bold leading-normal tracking-[0.015em]"
+          >
+            <span className="truncate">Sign Up</span>
+          </button>
+        </div>
+      </div>
+    </header>
+  );
+}
+
+export default Hero;
