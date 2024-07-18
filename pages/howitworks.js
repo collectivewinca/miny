@@ -1,6 +1,5 @@
-// pages/howitworks.js
 import React from 'react';
-import Layout from '../components/Layout'; // Correct path
+import Layout from '../components/Layout'; // Ensure the path is correct
 
 function HowItWorks() {
   return (
