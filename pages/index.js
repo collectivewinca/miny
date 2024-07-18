@@ -1,9 +1,10 @@
-import Hero from "./components/Hero";
+import React from 'react';
+import Layout from './components/Layout'; // Adjust the path if needed
 
 export default function Home() {
   return (
-    <>
-      <Hero/>
-    </>
+    <Layout>
+      {/* Add your homepage content here */}
+    </Layout>
   );
 }
