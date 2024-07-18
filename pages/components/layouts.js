@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from './Footer'; // Adjust the path as needed
-import Hero from './Hero'; // Assuming Hero contains the header
+import Footer from './Footer'; // Ensure the path is correct
+import Hero from './Hero'; // Ensure the path is correct
 
 const Layout = ({ children }) => {
   return (
