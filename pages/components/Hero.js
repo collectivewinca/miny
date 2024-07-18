@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link'; // Import Link from next/link
+import Link from 'next/link';
 
 function Hero() {
   return (
