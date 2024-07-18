@@ -1,6 +1,5 @@
-// pages/index.js
 import React from 'react';
-import Layout from './components/Layout'; // Correct path
+import Layout from '../components/Layout'; // Ensure the path is correct
 
 export default function Home() {
   return (
