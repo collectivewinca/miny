@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 function Hero() {
   return (
@@ -32,7 +33,7 @@ function Hero() {
                 <button
                   className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#0b6fda] text-white text-sm font-bold leading-normal tracking-[0.015em]"
                 >
-                  <span className="truncate">Login</span>
+                  <span className="truncate">Search</span>
                 </button>
                 <button
                   className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#f0f2f5] text-[#111418] text-sm font-bold leading-normal tracking-[0.015em]"
@@ -140,6 +141,7 @@ function Hero() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );
