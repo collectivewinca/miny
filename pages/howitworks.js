@@ -91,24 +91,4 @@ function HowItWorks() {
             Minyvinyl for Business
           </h2>
           <div className="p-4 @container">
-            <div className="flex flex-1 flex-col items-start justify-between gap-4 rounded-xl border border-[#dbe0e6] bg-white p-5 @[480px]:flex-row @[480px]:items-center">
-              <div className="flex flex-col gap-1">
-                <p className="text-[#111418] text-base font-bold leading-tight">For Businesses</p>
-                <p className="text-[#60758a] text-base font-normal leading-normal">
-                  Bring a unique and engaging music experience to your business or event.
-                </p>
-              </div>
-              <button
-                className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#0b6fda] text-white text-sm font-medium leading-normal"
-              >
-                <span className="truncate">Learn more</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </main>
-    </Layout>
-  );
-}
-
-export default HowItWorks;
+            <div className="flex flex-1 flex-col items-start justify-between gap
