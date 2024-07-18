@@ -1,3 +1,4 @@
+// components/Layout.js
 import React from 'react';
 import Footer from './footer'; // Ensure the path is correct
 import Hero from './Hero'; // Ensure the path is correct
