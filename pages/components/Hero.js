@@ -19,23 +19,23 @@ function Hero() {
       </div>
       <div className="flex flex-1 justify-end gap-8">
         <div className="flex items-center gap-9">
-          <Link href="/" passHref>
-            <a className="text-[#111418] text-sm font-medium leading-normal">Home</a>
+          <Link href="/" className="text-[#111418] text-sm font-medium leading-normal">
+            Home
           </Link>
-          <Link href="/howitworks" passHref>
-            <a className="text-[#111418] text-sm font-medium leading-normal">How It Works</a>
+          <Link href="/howitworks" className="text-[#111418] text-sm font-medium leading-normal">
+            How It Works
           </Link>
-          <Link href="/featured-playlists" passHref>
-            <a className="text-[#111418] text-sm font-medium leading-normal">Featured Playlists</a>
+          <Link href="/featured-playlists" className="text-[#111418] text-sm font-medium leading-normal">
+            Featured Playlists
           </Link>
-          <Link href="/marketplace" passHref>
-            <a className="text-[#111418] text-sm font-medium leading-normal">Marketplace</a>
+          <Link href="/marketplace" className="text-[#111418] text-sm font-medium leading-normal">
+            Marketplace
           </Link>
-          <Link href="/artists" passHref>
-            <a className="text-[#111418] text-sm font-medium leading-normal">Artists</a>
+          <Link href="/artists" className="text-[#111418] text-sm font-medium leading-normal">
+            Artists
           </Link>
-          <Link href="/fans" passHref>
-            <a className="text-[#111418] text-sm font-medium leading-normal">Fans</a>
+          <Link href="/fans" className="text-[#111418] text-sm font-medium leading-normal">
+            Fans
           </Link>
         </div>
         <div className="flex gap-2">
