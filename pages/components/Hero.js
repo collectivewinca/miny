@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'; // Import Link from next/link
 
 function Hero() {
   return (
@@ -18,18 +19,30 @@ function Hero() {
       </div>
       <div className="flex flex-1 justify-end gap-8">
         <div className="flex items-center gap-9">
-          <a className="text-[#111418] text-sm font-medium leading-normal" href="#">Home</a>
-          <a className="text-[#111418] text-sm font-medium leading-normal" href="/howitworks">How It Works</a> {/* Updated link */}
-          <a className="text-[#111418] text-sm font-medium leading-normal" href="#">Featured Playlists</a>
-          <a className="text-[#111418] text-sm font-medium leading-normal" href="#">Marketplace</a>
-          <a className="text-[#111418] text-sm font-medium leading-normal" href="#">Artists</a>
-          <a className="text-[#111418] text-sm font-medium leading-normal" href="#">Fans</a>
+          <Link href="/" passHref>
+            <a className="text-[#111418] text-sm font-medium leading-normal">Home</a>
+          </Link>
+          <Link href="/howitworks" passHref>
+            <a className="text-[#111418] text-sm font-medium leading-normal">How It Works</a>
+          </Link>
+          <Link href="#" passHref>
+            <a className="text-[#111418] text-sm font-medium leading-normal">Featured Playlists</a>
+          </Link>
+          <Link href="#" passHref>
+            <a className="text-[#111418] text-sm font-medium leading-normal">Marketplace</a>
+          </Link>
+          <Link href="#" passHref>
+            <a className="text-[#111418] text-sm font-medium leading-normal">Artists</a>
+          </Link>
+          <Link href="#" passHref>
+            <a className="text-[#111418] text-sm font-medium leading-normal">Fans</a>
+          </Link>
         </div>
         <div className="flex gap-2">
           <button
             className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#0b6fda] text-white text-sm font-bold leading-normal tracking-[0.015em]"
           >
-            <span className="truncate">Login</span>
+            <span className="truncate">Search</span>
           </button>
           <button
             className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#f0f2f5] text-[#111418] text-sm font-bold leading-normal tracking-[0.015em]"
