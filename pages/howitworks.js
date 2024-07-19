@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layout'; // Ensure the path is correct
+import Layout from '@/components/Layout'; // Ensure the path is correct
 
 function HowItWorks() {
   return (
