@@ -11,7 +11,7 @@ function HowItWorks() {
                 className="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-white @[480px]:rounded-xl min-h-80"
                 style={{
                   backgroundImage:
-                    'linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 25%), url("placeholder-hero.png")'
+                    'linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 25%), url("https://cdn.usegalileo.ai/stability/976591b5-8296-4f2a-b14b-4a82c64d6a2e.png")'
                 }}
               >
                 <div className="flex p-4">
@@ -28,7 +28,7 @@ function HowItWorks() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-8 p-4">
             {['Create', 'Share', 'Collect', 'Earn', 'Discover'].map((feature) => (
               <div key={feature} className="flex flex-col gap-3 pb-3 text-center">
-                <div className="w-20 h-20 bg-center bg-no-repeat aspect-square bg-cover rounded-xl mx-auto bg-gray-300" aria-label={`Placeholder for ${feature} Feature`}></div>
+                <img className="w-20 h-20 bg-center bg-no-repeat aspect-square bg-cover rounded-xl mx-auto bg-gray-300" aria-label={`Placeholder for ${feature} Feature`} src="https://picsum.photos/200/300"/>
                 <p className="text-[#111418] text-base font-medium leading-normal">{feature}</p>
                 <p className="text-[#60758a] text-sm font-normal leading-normal">
                   {/* Add appropriate descriptions for each feature here */}
