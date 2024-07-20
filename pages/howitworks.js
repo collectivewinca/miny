@@ -1,9 +1,7 @@
-import React from 'react';
-import Layout from '@/components/Layout'; // Ensure the path is correct
+
 
 function HowItWorks() {
   return (
-    <Layout>
       <main className="flex-grow px-4 py-5">
         <div className="layout-content-container flex flex-col w-full max-w-[960px] mx-auto">
           {/* Hero Section */}
@@ -107,7 +105,6 @@ function HowItWorks() {
           </div>
         </div>
       </main>
-    </Layout>
   );
 }
 
